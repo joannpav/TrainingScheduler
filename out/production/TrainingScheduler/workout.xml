@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE workouts SYSTEM "workout.dtd">
+<workouts>
+    <phases>
+        <phase name="Base" info="Build some base running volume to get the body ready for later workouts">
+            <long info="Builds stamina, aerobic pathways, mitochondria, red blood cells, myoglobin" length="Min 8 miles or 30% of weekly volume. Increase 10% per week" pace="60-70% mhr">
+                <week weekNum="1" weekPercent="85" />
+                <week weekNum="2" weekPercent="95" />
+                <week weekNum="3" weekPercent="100" />
+                <week weekNum="4" weekPercent="100" />
+                <week weekNum="5" weekPercent="80" />
+            </long>
+            <work1
+                    type="Hills and Fartlek"
+                    info="Build strength, sustain and improve form"
+                    detail="Divide (Total miles less long run) by 4, 2 easy days and 2 easy days with Fartlek">
+                <week weekNum="1" desc="Short hill repeats, 30 seconds up, walk down x 10" total="5" />
+                <week weekNum="2" desc="Medium hill repeats, 1 minute up, jog down x 8" total="6" />
+                <week weekNum="3" desc="Long hill repeats, 2 minutes up, jog down x 6" total="7"/>
+                <week weekNum="4" desc="Mixed hill repeat fartlek, 3 miles of rolling hills" total="7"/>
+                <week weekNum="5" desc="Steep hill repeats, 30 seconds, focus on form, x 10" total="8"/>
+            </work1>
+            <work2
+                    type="Fartlek"
+                    info="Build strength, sustain and improve form"
+                    detail="On a medium intensity plan, add a second day of fartlek to your workout">
+                <week weekNum="1" desc="6-8 strides" total="5" />
+                <week weekNum="2" desc="2 miles of speedplay, 1 minute per mile faster than your steady run pace" total="6" />
+                <week weekNum="3" desc="8-10 strides building to 10k pace" total="7"/>
+                <week weekNum="4" desc="8-10 strides building to 5k pace" total="7"/>
+                <week weekNum="5" desc="10-12 strides building to 10k pace" total="8"/>
+            </work2>
+            <work3
+                    type="Hills and Fartlek"
+                    info="Build strength, sustain and improve form"
+                    detail="On a high intensity plan, add a third day of fartlek to your workout">
+                <week weekNum="1" desc="6-8 strides, mix in hills" total="5" />
+                <week weekNum="2" desc="2 miles of speedplay, 1 minute per mile faster than your steady run pace" total="6" />
+                <week weekNum="3" desc="8-10 strides building to 10k pace, mix in hills" total="7"/>
+                <week weekNum="4" desc="8-10 strides building to 5k pace" total="7"/>
+                <week weekNum="5" desc="10-12 strides building to 10k pace, mix in hills" total="8"/>
+            </work3>
+            <easy
+                    info="Run at 70% MHR"
+                    detail="Take 1 day off or run easy.  Run remaining miles easy, split among remaining days.">
+            </easy>
+
+        </phase>
+        <phase name="Strength and Hills" info="Build muscle strength">
+            <long>
+                <week weekNum="1" weekPercent="85" />
+                <week weekNum="2" weekPercent="95" />
+                <week weekNum="3" weekPercent="100" />
+                <week weekNum="4" weekPercent="100" />
+                <week weekNum="5" weekPercent="80" />
+            </long>
+            <work1
+                    type="hill">
+                <week weekNum="1" desc="12 - 14 Short hills, focus on knee lift and sprinter type arm action.  Walk down hill" total="6"/>
+                <week weekNum="2" desc="Hills, focus on short, quick strides, leg speed, full calf extension and arm movement. try 8 x 200 meters" total="6"/>
+                <week weekNum="3" desc="Hills 5 x 400 meters" total="6"/>
+                <week weekNum="4" desc="Hills 8 x 200" total="6"/>
+                <week weekNum="5" desc="Hill 6 x 400" total="6"/>
+            </work1>
+            <work2
+                    type="hill">
+                <week weekNum="1" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="2" desc="Hills, 14 - 16 short hill repeats, walk down for recovery" total="6"/>
+                <week weekNum="3" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="4" desc="Hills, 14 - 16 short hill repeats, walk down for recovery" total="6"/>
+                <week weekNum="5" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+            </work2>
+            <work3
+                    type="hill">
+                <week weekNum="1" desc="Long hill repeats, 2 x 800 meters" total="6"/>
+                <week weekNum="2" desc="Long hill repeats, 2 x 1500 meters" total="6"/>
+                <week weekNum="3" desc="Long hill repeats, 3 x 800 meters" total="6"/>
+                <week weekNum="4" desc="Long hill repeats, 3 x 1500 meters" total="6"/>
+                <week weekNum="5" desc="Long hill repeats, 4 x 800 meters" total="6"/>
+            </work3>
+
+            <easy></easy>
+        </phase>
+        <phase name="Anaerobic Threshold" info="This phase focuses on tempo paced running which teaches your muscles to use more oxygen and become better at clearing lactate acid.">
+            <long>
+                <week weekNum="1" weekPercent="85" />
+                <week weekNum="2" weekPercent="95" />
+                <week weekNum="3" weekPercent="100" />
+                <week weekNum="4" weekPercent="100" />
+                <week weekNum="5" weekPercent="80" />
+            </long>
+            <work1
+                    type="tempo">
+                <week weekNum="1" desc="4 x 2k at 15k pace" total="6"/>
+                <week weekNum="2" desc="5 x 1 mile at 10k pace" total="7"/>
+                <week weekNum="3" desc="8 x 1k at 15k pace" total="7"/>
+                <week weekNum="4" desc="5 miles at tempo pace" total="8"/>
+                <week weekNum="5" desc="2 x 2.5 miles at tempo pace" total="8"/>
+            </work1>
+            <work2
+                    type="tempo">
+                <week weekNum="1" desc="2 x 1 mile at 10k pace" total="6"/>
+                <week weekNum="2" desc="3 x 2k at 15k pace" total="6"/>
+                <week weekNum="3" desc="3 miles at tempo pace" total="6"/>
+                <week weekNum="4" desc="2 x 1.5 miles at tempo pace" total="6"/>
+                <week weekNum="5" desc="4 x 1k at 15k pace" total="6"/>
+            </work2>
+            <work3
+                    type="tempo">
+                <week weekNum="1" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="2" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="3" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="4" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="5" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+            </work3>
+            <easy></easy>
+        </phase>
+        <phase name="V02Max" info="Imporve V02 Max, leg turnover, running economy">
+            <long>
+                <week weekNum="1" weekPercent="85" />
+                <week weekNum="2" weekPercent="95" />
+                <week weekNum="3" weekPercent="100" />
+                <week weekNum="4" weekPercent="100" />
+                <week weekNum="5" weekPercent="80" />
+            </long>
+            <work1
+                    type="track">
+                <week weekNum="1" desc="8-12 reps around track, stride the straights, jog the curves" total="7"/>
+                <week weekNum="2" desc="Track, 16 x 200" total="7"/>
+                <week weekNum="3" desc="Track, 10 x 300" total="8"/>
+                <week weekNum="4" desc="Track, 8 x 200 and 4 x 400 at 2 mile race pace" total="8"/>
+                <week weekNum="5" desc="Track, 10 x 300" total="8"/>
+            </work1>
+            <work2
+                    type="track">
+                <week weekNum="1" desc="Track, 4 x 200 and 6 x 400" total="6"/>
+                <week weekNum="2" desc="Track, 4 x 300 and 4 x 600" total="6"/>
+                <week weekNum="3" desc="Track, 6 x 200 and 3 x 800" total="7"/>
+                <week weekNum="4" desc="Track, 4 x 200 and 6 x 400" total="7"/>
+                <week weekNum="5" desc="Track, 4 x 300 and 4 x 600" total="8"/>
+            </work2>
+            <work3
+                    type="track">
+                <week weekNum="1" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="2" desc="Fartlek, 2 - 3 miles of speedplay" total="7"/>
+                <week weekNum="3" desc="Fartlek, 2 - 3 miles of speedplay" total="8"/>
+                <week weekNum="4" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="5" desc="Fartlek, 2 - 3 miles of speedplay" total="7"/>
+            </work3>
+            <easy></easy>
+        </phase>
+        <phase name="Peak" info="Decrease mileage and improve average running pace">
+            <long>
+                <week weekNum="1" weekPercent="80" />
+                <week weekNum="2" weekPercent="85" />
+                <week weekNum="3" weekPercent="90" />
+                <week weekNum="4" weekPercent="80" />
+                <week weekNum="5" weekPercent="70" />
+            </long>
+            <work1
+                    type="Race">
+                <week weekNum="1" desc="Race" total="6"/>
+                <week weekNum="2" desc="5 x 800 at faster than 2 mile pace" total="6"/>
+                <week weekNum="3" desc="4 x 1000 at faster than 2 mile pace" total="6"/>
+                <week weekNum="4" desc="Race" total="6"/>
+                <week weekNum="5" desc="Race" total="6"/>
+            </work1>
+            <work2
+                    type="Track">
+                <week weekNum="1" desc="6 x 800 at faster than 2 mile pace" total="7"/>
+                <week weekNum="2" desc="4 x 1000 at 2 mile pace" total="7"/>
+                <week weekNum="3" desc="4 x 1200 at 2 mile pace" total="8"/>
+                <week weekNum="4" desc="3 x 1 mile at 2 mile pace" total="7"/>
+                <week weekNum="5" desc="4 x 1000 at faster than 2 mile pace" total="7"/>
+            </work2>
+            <work3
+                    type="Fartlek">
+                <week weekNum="1" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="2" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="3" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="4" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+                <week weekNum="5" desc="Fartlek, 2 - 3 miles of speedplay" total="6"/>
+            </work3>
+            <easy></easy>
+        </phase>
+    </phases>
+</workouts>

@@ -1,0 +1,37 @@
+<!ELEMENT workouts (phases*)>
+<!ELEMENT phases (phase*)>
+
+<!ELEMENT phase (long, work1, work2, work3, easy) >
+<!ATTLIST long info CDATA #IMPLIED>
+<!ATTLIST long length CDATA #IMPLIED>
+<!ATTLIST long pace CDATA #IMPLIED>
+<!ATTLIST phase name CDATA #REQUIRED>
+<!ATTLIST phase info CDATA #REQUIRED>
+
+<!ELEMENT long (week*)>
+<!ELEMENT work1 (week*)>
+<!ELEMENT work2 (week*)>
+<!ELEMENT work3 (week*)>
+<!ELEMENT easy (#PCDATA)>
+<!ELEMENT race (#PCDATA)>
+<!ELEMENT week EMPTY>
+
+<!ATTLIST week weekNum CDATA #REQUIRED>
+<!ATTLIST week weekPercent CDATA #IMPLIED>
+<!ATTLIST week desc CDATA #IMPLIED>
+<!ATTLIST week total CDATA #IMPLIED>
+
+<!ATTLIST easy info CDATA #IMPLIED>
+<!ATTLIST easy detail CDATA #IMPLIED>
+
+<!ATTLIST work1 info CDATA #IMPLIED>
+<!ATTLIST work1 detail CDATA #IMPLIED>
+<!ATTLIST work1 type CDATA #IMPLIED>
+
+<!ATTLIST work2 info CDATA #IMPLIED>
+<!ATTLIST work2 detail CDATA #IMPLIED>
+<!ATTLIST work2 type CDATA #IMPLIED>
+
+<!ATTLIST work3 info CDATA #IMPLIED>
+<!ATTLIST work3 detail CDATA #IMPLIED>
+<!ATTLIST work3 type CDATA #IMPLIED>
